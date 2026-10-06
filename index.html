@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Almanca Pratik</title>
+  <meta name="theme-color" content="#ff6b35">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Almanca">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <button id="back" class="icon-btn" aria-label="Geri" hidden>←</button>
+    <h1><span class="mark" aria-hidden="true">✳</span><span id="title">Almanca Pratik</span></h1>
+    <button id="timer" class="timer" aria-label="Geçirilen süre">⏱ <span>0:00</span></button>
+    <a href="#/voices" class="icon-btn" aria-label="Ses ayarları">🔊</a>
+  </header>
+  <main id="view"></main>
+  <footer class="made"><a href="#/about"><span class="mark">✳</span> Claude ile yapıldı · Hakkında · 📤 Paylaş</a></footer>
+  <script src="compare.js"></script>
+  <script src="speech.js"></script>
+  <script src="gamify.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
